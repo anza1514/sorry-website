@@ -38,7 +38,7 @@ gif.style.width = "400px";
     noBtn.addEventListener("click", () => {
       question.innerHTML = "Mein Booht sherminda hun 🥺";
       gif.src = "images/sadlife.gif";
-      yesBtn.innerHTML = "Chalo maaf gai";
+      yesBtn.innerHTML = "Jain maaf keya";
       noBtn.innerHTML = "Bilkul nhii";
 
       yesBtn.addEventListener("click", () => {
