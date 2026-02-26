@@ -7,13 +7,13 @@ const noBtn = document.querySelector(".no-btn");
 const btnGrp = document.querySelector(".btn-group");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Mein Apki Birtday bhool gya";
+  question.innerHTML = "Mein Apki Birtday bhool gya na 🥺";
  
   gif.src = "images/sorry.png";
   gif.style.height = "300px"; 
 gif.style.width = "400px"; 
-  noBtn.innerHTML = "No";
-  yesBtn.innerHTML = "Accha thik hai";
+  noBtn.innerHTML = "No sorry";
+  yesBtn.innerHTML = "Jain Maaaf Keya";
 
   yesBtn.addEventListener("click", () => {
     question.innerHTML = "Thank you Janah g!";
@@ -23,7 +23,7 @@ gif.style.width = "400px";
   })
 
   noBtn.addEventListener("click", () => {
-    question.innerHTML = "Soch lain phr sy!";
+    question.innerHTML = "Please Sorry naa!";
     gif.src = "images/download.gif";
     yesBtn.innerHTML = "Accha thik hai";
     noBtn.innerHTML = "Nahi ";
@@ -36,10 +36,10 @@ gif.style.width = "400px";
     })
 
     noBtn.addEventListener("click", () => {
-      question.innerHTML = "Ak baar phr sy soch lain";
+      question.innerHTML = "Mein Booht sherminda hun 🥺";
       gif.src = "images/sadlife.gif";
-      yesBtn.innerHTML = "Chalo maan gai";
-      noBtn.innerHTML = "Final no";
+      yesBtn.innerHTML = "Chalo maaf gai";
+      noBtn.innerHTML = "Bilkul nhii";
 
       yesBtn.addEventListener("click", () => {
         question.innerHTML = "Thank you Janah g !";
@@ -51,8 +51,8 @@ gif.style.width = "400px";
       noBtn.addEventListener("click", () => {
         question.innerHTML = "Mein esy nhi jany don ga";
         gif.src = "images/run.gif";
-        yesBtn.innerHTML = "Bilkul nhii";
-        noBtn.innerHTML = "Yes";
+        yesBtn.innerHTML = "Achaa Maaf keya";
+        noBtn.innerHTML = "Thk hey";
 
         noBtn.addEventListener("click", () => {
           question.innerHTML = "Thank you Janah g !!";
